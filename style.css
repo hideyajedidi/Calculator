@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#display{
+    width: 205px;
+    height: 25px;
+    border-width: 5px;
+    border-radius: 10%;
+   
+}
+.container{
+    display: grid;
+    place-items: center;
+    width: 220px;
+    background-color: rgb(75, 70, 70);  
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    
+}
+button{
+    border-radius: 25%;
+    border-width: 5px;
+    width: 25%; /* Ensures 4 buttons per row */
+    
+    font-size: 1.5rem;
+    
+}
+#zero{
+    width: 50%;
+}
